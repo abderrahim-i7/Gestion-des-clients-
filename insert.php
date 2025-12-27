@@ -1,4 +1,5 @@
 <?php
+
 include 'db.php';
 $nom = $_POST['nom'];
 $prenom = $_POST['prenom'];

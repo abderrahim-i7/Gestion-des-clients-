@@ -1,6 +1,6 @@
 <?php
 $conn=mysqli_connect("localhost","root","","gestion_clients");
-if (!$conn) {
+if(!$conn){
     die("Erreur de connexion");
 }
 ?>

@@ -1,6 +1,5 @@
 CREATE DATABASE gestion_clients;
 USE gestion_clients;
-
 CREATE TABLE clients (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(50),

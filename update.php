@@ -3,7 +3,6 @@ include 'db.php';
 if($_SERVER["REQUEST_METHOD"] != "POST"){
     echo "Accès interdit"; exit;
 }
-
 $id = $_POST['id'];
 $nom = $_POST['nom'];
 $prenom = $_POST['prenom'];

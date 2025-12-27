@@ -8,6 +8,7 @@ $result = mysqli_query($conn,"SELECT * FROM clients");
 while($row = mysqli_fetch_assoc($result)){
     fputcsv($output, $row);
 }
+
 fclose($output);
 exit;
 ?>

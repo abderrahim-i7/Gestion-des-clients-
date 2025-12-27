@@ -11,27 +11,20 @@ $client = mysqli_fetch_assoc($result);
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <?php
 include 'db.php';
-
 if (!isset($_GET['id'])) {
     echo "ID non trouvé";
     exit;
 }
-
 $id = $_GET['id'];
 $result = mysqli_query($conn, "SELECT * FROM clients WHERE id=$id");
-
 if (mysqli_num_rows($result) == 0) {
     echo "Client introuvable";
     exit;
 }
-
 $client = mysqli_fetch_assoc($result);
 ?>
-
-
 <div class="container">
     <h2>Modifier client</h2>
     <form method="post" action="update.php">

@@ -48,6 +48,5 @@ include 'db.php';
         ?>
     </table>
 </div>
-
 </body>
 </html>

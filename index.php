@@ -33,6 +33,7 @@ function verifierFormulaire() {
     }
     return true;
 }
+
 </script>
 </body>
 </html>
