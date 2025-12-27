@@ -10,7 +10,7 @@
     <h2>Ajouter un client</h2>
     <form method="post" action="insert.php" name="formClient" onsubmit="return verifierFormulaire()">
         <input type="text" name="nom" placeholder="Nom">
-        <input type="text" name="prenom" placeholder="Prénom">
+        <input type="text" name="prenom" placeholder="Prenom">
         <select name="sexe">
             <option value="Homme">Homme</option>
             <option value="Femme">Femme</option>
@@ -28,7 +28,7 @@ function verifierFormulaire() {
     var prenom = document.forms["formClient"]["prenom"].value;
     var ville = document.forms["formClient"]["ville"].value;
     if(nom === "" || prenom === "" || ville === "") {
-        alert("Sisaire le Nom, Prénom et Ville !");
+        alert("Sisaire le Nom, Prenom et Ville !");
         return false;
     }
     return true;
