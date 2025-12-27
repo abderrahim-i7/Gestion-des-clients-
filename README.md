@@ -2,6 +2,7 @@
 
 **Description :** ----------------------------------------------- 
 Application web simple pour gérer les clients avec PHP et MySQL.
+
 -----------------------------------------------------------------
 
 ## Auteurs / Authors
